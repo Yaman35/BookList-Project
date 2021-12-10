@@ -1,0 +1,27 @@
+.search {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-clip: padding-box;
+  border: 1px solid rgba(255, 0, 0, 0.397);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  outline: none;
+}
+
+.hide {
+  display: none;
+}
+
+input[type='submit']:hover {
+  background: purple !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+::placeholder {
+  color: purple;
+}
